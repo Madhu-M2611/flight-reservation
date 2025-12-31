@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flight Ticket Reservation Website</title>
+  <style>
+    /* Global styles */
+    body {
+      background-color: #000;
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      background-color: #292b2c;
+      padding: 30px 0;
+    }
+
+    h1 {
+      font-size: 3em;
+      font-weight: bold;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+      padding: 15px 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+      padding: 12px 25px;
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 1px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #007bff;
+    }
+
+    /* Background image with fixed position */
+    body {
+      background-image: url('https://cdn.wallpapersafari.com/37/9/DTurLX.png');
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    /* Main content styles */
+    main {
+      width: 80%;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.2); /* Translucent white for better readability */
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Section Styles */
+    section {
+      margin: 3em 0;
+      text-align: center;
+      padding: 40px;
+      border-radius: 8px;
+      background-color: rgba(50, 50, 50, 0.7); /* Semi-transparent background for sections */
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Section Headers */
+    h2 {
+      font-size: 2.2em;
+      font-weight: bold;
+      color: #ff7e5f;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    /* Paragraph Styling */
+    p {
+      font-size: 1.1em;
+      color: #f4f4f4;
+      line-height: 1.8;
+      margin: 10px 0;
+    }
+
+    /* Button Styling */
+    .submit {
+      background-color: #ff7e5f;
+      color: #fff;
+      font-size: 1.2em;
+      border: none;
+      padding: 12px 25px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .submit:hover {
+      background-color: #ff4c2b;
+    }
+
+    /* Footer Styles */
+    footer {
+      text-align: center;
+      background-color: #292b2c;
+      padding: 15px 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+    footer p {
+      font-size: 1em;
+      color: #f4f4f4;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2.5em;
+      }
+      nav {
+        flex-direction: column;
+      }
+      nav a {
+        padding: 15px;
+        margin: 5px 0;
+      }
+      .submit {
+        width: 100%;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Flight Ticket Reservation</h1>
+    <nav>
+      <a href="/home.html">Home</a>
+      <a href="/about us.html">About Us</a>
+      <a href="/home.html">Services</a>
+      <a href="/contact us.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section style="background-color: rgba(0, 0, 0, 0.7);"> <!-- Darker section background -->
+      <h2>Find the Best Flight Tickets</h2>
+      <p>We offer a wide variety of flights to choose from, ensuring that you can find the best price and schedule for your trip.</p>
+      <p>Our booking process is simple and fast, making it easy for you to secure your flight in just a few minutes.</p>
+      <p>We also offer a variety of payment options to make your booking experience as convenient as possible.</p>
+    </section>
+
+    <section style="background-color: rgba(0, 0, 0, 0.8);"> <!-- Darker section background -->
+      <h2>Book Your Flight Today</h2>
+      <p>Browse through our selection of flights and find the perfect one for your journey.</p>
+      <p>Once you find the right flight, just enter your details and payment information to finalize your booking.</p>
+      <p>We’ll send you a confirmation email with all the necessary details of your booking.</p>
+    </section>
+
+    <section style="background-color: rgba(0, 0, 0, 0.6);"> <!-- Darker section background -->
+      <a href="/login.html">
+        <button class="submit">Sign In</button>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Flight Ticket Reservation Website. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
